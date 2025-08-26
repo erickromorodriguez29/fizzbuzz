@@ -1,5 +1,5 @@
-export function fizzbuzz(1,100){
-    for(let i=1; i<= numero; 1++){
+export function fizzbuzz(){
+    for(let i=1; i<= 100; i++){
         if ((i %3===0) && (i % 5 === 0)){
             console.log('fizzbuzz')
         }
@@ -9,9 +9,12 @@ export function fizzbuzz(1,100){
         else if (i % 5 ===0 ){
             console.log('buzz')
         }
-        else {console.log('imput: ${i}')}
+        else {console.log(i);
+
+        }
     }
 }
 
   
-}
+fizzbuzz();
+
